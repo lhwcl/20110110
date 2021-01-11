@@ -4,6 +4,7 @@ public class Child extends User{
     private String cry;
     private double height;
     public Child(String cry,double height){
+        super(100,"花花");
         this.cry=cry;
         this.height=height;
     }

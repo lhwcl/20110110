@@ -5,7 +5,9 @@ public class Student extends User{
 
         private int age;
         private String phone;
-
+public Student(){
+    super(122,"liha");
+}
 
 
         public int getAge() {
